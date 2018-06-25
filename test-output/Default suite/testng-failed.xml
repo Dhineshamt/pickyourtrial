@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.pickyourtrial.testcases.TC001">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="startResult"/>
+          <include name="beforeSuite"/>
+          <include name="endTestcase"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="endResult"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- org.pickyourtrial.testcases.TC001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
