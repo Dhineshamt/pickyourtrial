@@ -31,7 +31,7 @@ import org.pickyourtrial.utils.Reporter;
 
 import com.relevantcodes.extentreports.ExtentTest;
 
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 public class GenericWrappers extends Reporter implements Wrappers{
 
@@ -387,7 +387,7 @@ public class GenericWrappers extends Reporter implements Wrappers{
 	public void clickByXpath(String xpathVal) {
 		try{
 			WebElement elmt = driver.findElementByXPath(xpathVal);			
-			Assert.assertTrue(elmt.isDisplayed());
+			//Assert.assertTrue(elmt.isDisplayed());
 			elmt.click();
 			reportStep("The element : "+xpathVal+" is clicked.", "PASS");
 		} catch (Exception e) {		
